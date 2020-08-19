@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">iTunesSearch</string>
+    <string name="app_home_title">Search for iTunes</string>
+    <string name="app_cart_title">Your Cart</string>
+    <string name="no_data_found">NO DATA FOUND</string>
+    <string name="search_for_songs">Search for songs</string>
+    <string name="validate_search">Please enter some text and search</string>
+    <string name="no_content">--</string>
+    <string name="sort_dialog_title">Sort according to</string>
+    <string name="cart_empty">Cart cannot be empty</string>
+    <string-array name="sort">
+        <item>Release Date</item>
+        <item>Artist Name</item>
+        <item>Track Name</item>
+        <item>Collection Name</item>
+        <item>Collection Price</item>
+    </string-array>
+
+
+</resources>
