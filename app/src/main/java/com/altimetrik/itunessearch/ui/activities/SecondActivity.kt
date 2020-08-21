@@ -19,7 +19,7 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cart)
-        showActionBar(toolBar,getString(R.string.app_cart_title))
+        showActionBar(toolBar, getString(R.string.app_cart_title))
         val bundle = intent?.extras
         val list = bundle?.getParcelableArrayList<Result>(AppConstants.INTENT_KEY_CART)
         Collections.sort(list as MutableList<Result>, Comparator<Result> { obj1, obj2 ->

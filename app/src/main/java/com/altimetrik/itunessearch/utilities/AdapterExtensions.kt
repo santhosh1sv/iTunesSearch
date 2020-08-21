@@ -8,8 +8,9 @@ fun RecyclerView.Adapter<RecyclerView.ViewHolder>.addAll(list: ArrayList<Any>, L
     val newList = ArrayList<Any>()
     while (iterator.hasNext()) {
         val item = iterator.next()
-        item.let { newList.add(it) }
+        newList.add(item)
     }
+
     list.addAll(newList)
     notifyDataSetChanged()
 }
